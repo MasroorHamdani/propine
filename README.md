@@ -20,6 +20,9 @@ source env/bin/activate
 # Install requirements
 pip install -r requirement.txt
 
+# Add the transaction.csv file path in main.js file
+tran_file = './transactions.csv'
+
 # Run application
 
 # For 2nd Question run below command with arguments
